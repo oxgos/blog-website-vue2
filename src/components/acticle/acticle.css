@@ -1,0 +1,31 @@
+.acticle::before {
+  display: block;
+  content: '';
+}
+.acticle::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+.acticle .main {
+  width: 73%;
+  float: left;
+}
+.acticle .main .banner {
+  width: 100%;
+  height: 290px;
+  margin: 10px auto;
+  background: url('banner.jpg') no-repeat center;
+}
+.acticle aside {
+  width: 27%;
+  float: left;
+}
+.acticle aside .avatar {
+  margin: 10px auto;
+  width: 160px;
+  height: 160px;
+  border-radius: 100%;
+  overflow: hidden;
+  background: url('photos.jpg') no-repeat center;
+}
