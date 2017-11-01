@@ -8,9 +8,20 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+figure {
     padding: 0;
     margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    text-align: left;
 }
 
 html,
@@ -20,7 +31,12 @@ body {
 }
 
 body {
+    font-size: 12px;
     font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+}
+
+img {
+    vertical-align: middle;
 }
 
 ul,
